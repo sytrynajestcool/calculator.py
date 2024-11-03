@@ -1,5 +1,3 @@
-import sys
-
 print ('Im G, how can I help You?')
 
 while True:
@@ -27,4 +25,4 @@ while True:
     if input().lower() == 'n':
         print ('see you soon') 
 
-    sys.exit()
+    break
