@@ -17,8 +17,8 @@ while True:
         result = num1 * num2
         print (result)
 
-    if operator == "/" and num1 == 0 or num2 == 0:
-        print ('zjeb')
+    if operator == "/" and num2 == 0:
+        print ('you are an idiot.')
     else:
         result = num1 / num2
         print (result)  
@@ -27,4 +27,4 @@ while True:
     if input().lower() == 'n':
         print ('see you soon') 
 
-        sys.exit()
+    sys.exit()
